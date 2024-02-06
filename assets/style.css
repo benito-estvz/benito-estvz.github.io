@@ -1,6 +1,15 @@
+@keyframes brillar {
+  0% { text-shadow: 0 0 5px #8e24aa, 0 0 10px #8e24aa, 0 0 15px #8e24aa, 0 0 20px #8e24aa; }
+  50% { text-shadow: 0 0 20px #c725d0, 0 0 30px #c725d0, 0 0 40px #c725d0, 0 0 50px #c725d0; }
+  100% { text-shadow: 0 0 5px #8e24aa, 0 0 10px #8e24aa, 0 0 15px #8e24aa, 0 0 20px #8e24aa; }
+}
+
 h1 {
-    font-family: 'Iceberg', sans-serif!important;
-    font-style: normal!important;
-    text-align: center!important;
-    font-size: 400pt!important;
+  font-family: 'Iceberg', sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-size: 75px;
+  color: #8e24aa;
+  text-shadow: 0 0 5px #8e24aa, 0 0 10px #8e24aa, 0 0 15px #8e24aa, 0 0 20px #8e24aa;
+  animation: brillar 3s ease-in-out infinite;
 }

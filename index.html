@@ -6,9 +6,25 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="assets/style.css?v=2"/>
+        <link rel="stylesheet" href="assets/style.css?v=3"/>
+        <script type="text/javascript" src="assets/brython.js"></script>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/brython@3.12/brython.min.js">
+        </script>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/brython@3.12/brython_stdlib.js">
+        </script>
+        <script src="assets/particles.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/5d7259628f.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <div id="particles-js"></div>
+        <script src="particles.js"></script>
         <h1>Hola</h1>
+        <script>
+            particlesJS.load('particles-js', 'assets/particles.json', function() {
+                console.log('callback - particles.js config loaded');
+            });
+        </script>
     </body>
 </html>

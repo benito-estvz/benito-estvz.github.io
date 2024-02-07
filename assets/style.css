@@ -1,15 +1,19 @@
 @keyframes brillar {
-  0% { text-shadow: 0 0 5px #8e24aa, 0 0 10px #8e24aa, 0 0 15px #8e24aa, 0 0 20px #8e24aa; }
-  50% { text-shadow: 0 0 20px #c725d0, 0 0 30px #c725d0, 0 0 40px #c725d0, 0 0 50px #c725d0; }
-  100% { text-shadow: 0 0 5px #8e24aa, 0 0 10px #8e24aa, 0 0 15px #8e24aa, 0 0 20px #8e24aa; }
-}
+    0% { text-shadow: 0 0 5px #8d24aa8a, 0 0 10px #8d24aa8a, 0 0 15px #8d24aa80, 0 0 20px #8d24aa8e; }
+    50% { text-shadow: 0 0 20px #c825d081, 0 0 30px #c825d086, 0 0 40px #c825d098, 0 0 50px #c825d0a4; }
+    100% { text-shadow: 0 0 5px #8d24aa7e, 0 0 10px #8d24aa77, 0 0 15px #8d24aa85, 0 0 20px #8d24aa83; }
+  }
+  
+  h1 {
+    font-family: 'Iceberg', sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 75px;
+    color: #8d24aab4;
+    text-shadow: 0 0 5px #8d24aa8f, 0 0 10px #8d24aaa1, 0 0 15px #8d24aaa9, 0 0 20px #8d24aa7c;
+    animation: brillar 3s ease-in-out infinite;
+  } 
 
-h1 {
-  font-family: 'Iceberg', sans-serif;
-  font-style: normal;
-  text-align: center;
-  font-size: 75px;
-  color: #8e24aa;
-  text-shadow: 0 0 5px #8e24aa, 0 0 10px #8e24aa, 0 0 15px #8e24aa, 0 0 20px #8e24aa;
-  animation: brillar 3s ease-in-out infinite;
-}
+  body {
+    background-color: black
+  }

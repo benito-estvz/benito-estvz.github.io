@@ -9,7 +9,7 @@
     font-family: 'Iceberg', sans-serif;
     font-style: normal;
     text-align: center;
-    font-size: 75px;
+    font-size: 77px;
     color: #8d24aab4;
     text-shadow: 0 0 5px #8d24aa8f, 0 0 10px #8d24aaa1, 0 0 15px #8d24aaa9, 0 0 20px #8d24aa7c;
     animation: brillar 3s ease-in-out infinite;
@@ -29,13 +29,13 @@
   }
 
   h2 {
-    color: rgb(7E30E4);
+    color: hex(7E30E4);
     text-decoration: none;
     text-align: center;
     border-radius: 0px;
     border: 0px;
     font-family: Iceland;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px auto;
     animation: a 3s linear infinite;
     animation-duration: 3s;

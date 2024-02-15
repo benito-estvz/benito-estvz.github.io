@@ -1,3 +1,4 @@
+
 @keyframes brillar {
     0% { text-shadow: 0 0 5px #8d24aa8a, 0 0 10px #8d24aa8a, 0 0 15px #8d24aa80, 0 0 20px #8d24aa8e; }
     50% { text-shadow: 0 0 20px #c825d081, 0 0 30px #c825d086, 0 0 40px #c825d098, 0 0 50px #c825d0a4; }
@@ -28,14 +29,14 @@
   }
 
   h2 {
-    color: rgb(107, 11, 136);
+    color: rgb(7E30E4);
     text-decoration: none;
+    text-align: center;
     border-radius: 0px;
     border: 0px;
     font-family: Iceland;
     font-size: 30px;
     margin: 0px auto;
-    text-shadow: 2px 4px 6px rgb(138, 53, 218);
     animation: a 3s linear infinite;
     animation-duration: 3s;
     animation-timing-function: linear;

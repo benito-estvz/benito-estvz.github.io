@@ -114,6 +114,7 @@
     text-decoration: none;
   }
   button {
+    align-items: center;
     --green: #1BFD9C;
     font-size: 15px;
     padding: 0.7em 2.7em;

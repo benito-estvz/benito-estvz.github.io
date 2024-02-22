@@ -164,3 +164,11 @@
   button:hover:before {
     transform: translateX(15em);
   }
+  .botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .contenedor {
+    text-align: center;
+  }

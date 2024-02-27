@@ -58,6 +58,29 @@ p {
     animation-range-end: normal;
   }
 
+  h3 {
+    color: #c50ea7;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0px;
+    border: 0px;
+    font-family: Iceland;
+    font-size: 35px;
+    margin: 0px auto;
+    animation: a 3s linear infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: a;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+  }
+
   .btn {
     text-align: center;
     position: center;

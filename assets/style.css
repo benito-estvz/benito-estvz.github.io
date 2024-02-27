@@ -19,6 +19,13 @@
     place-items: center;
   }
 
+p {
+  color: white;
+  text-align: center;
+  font-size: 13;
+  font-family: "Anta", sans-serif
+}
+
   #particles-js {
     position: absolute;
     top: 0;

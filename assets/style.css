@@ -149,7 +149,6 @@ p {
     left: 0;
     right: 0;
     margin: 30px; 
-    transform: translateX(-50%);
     align-items: center;
     --green: #1BFD9C;
     font-size: 15px;

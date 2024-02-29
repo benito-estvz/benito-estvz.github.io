@@ -201,3 +201,29 @@ p {
   .contenedor {
     text-align: center;
   }
+  .hrdiv {
+    display: flex;
+    
+    &:before,
+    &:after {
+      content: "";
+      flex: 1;
+    }
+  }
+  .hrdiv2 {
+    overflow: hidden;
+    align-items: center;
+    background: hsl(50, 100%, 50%);
+    color: black;
+    height: 2em;
+    line-height: 2em;
+    
+    &:before,
+    &:after {
+      background: white;
+      padding: 50px 0;
+      height: 0;
+      transform: rotate(45deg);
+    }
+  }
+  

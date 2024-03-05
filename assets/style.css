@@ -35,6 +35,11 @@ f {
   align-tracks: center;
   font-size: 10;
   font-family: "Tilt Neon", sans-serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 i {

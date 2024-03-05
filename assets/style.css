@@ -201,29 +201,15 @@ p {
   .contenedor {
     text-align: center;
   }
-  .hrdiv {
-    display: flex;
-    
-    &:before,
-    &:after {
-      content: "";
-      flex: 1;
-    }
+  hr.gradient {
+    height: 3px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(
+      90deg,
+      rgb(197, 5, 255) 0%,
+      rgb(138, 9, 150) 21%,
+      rgb(130, 6, 146) 51%,
+      rgb(53, 9, 65) 100%
+    );
   }
-  .hrdiv2 {
-    overflow: hidden;
-    align-items: center;
-    background: hsl(50, 100%, 50%);
-    color: black;
-    height: 2em;
-    line-height: 2em;
-    
-    &:before,
-    &:after {
-      background: white;
-      padding: 50px 0;
-      height: 0;
-      transform: rotate(45deg);
-    }
-  }
-  

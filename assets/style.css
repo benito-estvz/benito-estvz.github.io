@@ -29,6 +29,10 @@ p {
 f {
   color: white;
   text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  align-tracks: center;
   font-size: 10;
   font-family: "Tilt Neon", sans-serif;
 }

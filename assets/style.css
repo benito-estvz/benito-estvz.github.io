@@ -26,6 +26,17 @@ p {
   font-family: "Anta", sans-serif
 }
 
+f {
+  color: white;
+  text-align: center;
+  font-size: 10;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+i {
+  align-items: center;
+}
+
   #particles-js {
     position: absolute;
     top: 0;

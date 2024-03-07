@@ -58,11 +58,11 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   document.addEventListener('DOMContentLoaded', function() {
-    const fontCodeButtons = document.querySelectorAll('.btnhak5');
+    const fontCodeButtons = document.querySelectorAll('.btndc');
   
     fontCodeButtons.forEach(function(button) {
       button.addEventListener('click', function() {
-        window.open('https://hak5.org', '_blank');
+        window.open('https://defcon.org/', '_blank');
       });
     });
   });
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     fontCodeButtons.forEach(function(button) {
       button.addEventListener('click', function() {
-        window.open('https://dstike.org/', '_blank');
+        window.open('https://dstike.com/', '_blank');
       });
     });
   });

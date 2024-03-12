@@ -38,11 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   document.addEventListener('DOMContentLoaded', function() {
-    const fontCodeButtons = document.querySelectorAll('.btnxfw');
+    const fontCodeButtons = document.querySelectorAll('.btnmntm');
   
     fontCodeButtons.forEach(function(button) {
       button.addEventListener('click', function() {
-        window.open('https://flipper-xtre.me', '_blank');
+        window.open('https://momentum-fw.dev/', '_blank');
       });
     });
   });
